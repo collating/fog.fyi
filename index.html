@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Lattice Pattern</title>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-			background-color: black;
-		}
-
-		.square {
-			width: 5px;
-			height: 5px;
-			float: left;
-			background-color: darkgreen;
-		}
-
-		.square:nth-child(even) {
-			background-color: black;
-		}
-	</style>
-</head>
-<body>
-	<div class="container">
-		<!-- Create a 100x100 grid of 5x5 pixel squares -->
-		<?php for ($i = 0; $i < 100; $i++) { ?>
-			<?php for ($j = 0; $j < 100; $j++) { ?>
-				<div class="square"></div>
-			<?php } ?>
-		<?php } ?>
-	</div>
-</body>
+  <head>
+    <title>Checkered Webpage</title>
+    <style>
+      body {
+        background-color: black;
+        background-image: linear-gradient(45deg, #006400 25%, transparent 25%, transparent 75%, #006400 75%, #006400), linear-gradient(45deg, #006400 25%, transparent 25%, transparent 75%, #006400 75%, #006400);
+        background-size: 20px 20px;
+      }
+      h1 {
+        font-family: "Helvetica Neue", sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background-color: #006400;
+        border: none;
+        color: white;
+        font-family: "Helvetica Neue", sans-serif;
+        font-size: 20px;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #003300;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello, it is Fog.</h1>
+    <button href="https://youtube.com/@fog-?sub_confirmation=1">Subscribe on YouTube</button>
+  </body>
 </html>
