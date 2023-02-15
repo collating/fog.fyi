@@ -1,82 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Fog's Page</title>
+    <title>Hello, it is Fog.</title>
     <style>
       body {
-        margin: 0;
-        background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark_embroidery.png");
+        background-color: navy;
       }
-      header {
-        background-color: #00bfff;
-        font-family: "Montserrat", sans-serif;
-        font-size: 48px;
+      
+      h1 {
+        font-size: 36px;
         font-weight: bold;
-        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #87CEFA;
         text-align: center;
-        padding: 50px 0;
-        text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
+        text-shadow: 0 0 5px #87CEFA, 0 0 10px #87CEFA, 0 0 15px #87CEFA;
       }
-      button {
-        display: block;
-        margin: 0 auto;
-        padding: 15px 25px;
-        font-size: 24px;
-        font-family: "Montserrat", sans-serif;
-        color: #fff;
-        background-color: #1a237e;
-        border: 3px solid #bbb;
-        border-radius: 5px;
-        transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+      
+      a.button {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 1px solid #CCC;
+        background-color: #87CEFA;
+        color: #FFF;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
       }
-      button:hover {
-        background-color: #303f9f;
-        transform: scale(1.1);
-      }
-      .checkerboard {
-        background: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark_embroidery.png");
-        background-size: 20px 20px;
-      }
-      .checkerboard:after {
-        content: "";
-        display: block;
-        clear: both;
-      }
-      .checkerboard div {
-        width: 20px;
-        height: 20px;
-        float: left;
-      }
-      .checkerboard .dark {
-        background-color: #1a237e;
-      }
-      .checkerboard .light {
-        background-color: #303f9f;
+      
+      a.button:hover {
+        background-color: #B0E2FF;
+        border: 1px solid #999;
+        transform: scale(1.05);
       }
     </style>
   </head>
   <body>
-    <header>Hello, it is Fog.</header>
-    <a href="https://youtube.com/@fog-?sub_confirmation=1">
-      <button>Subscribe on YouTube</button>
-    </a>
-    <div class="checkerboard">
-      <div class="dark"></div>
-      <div class="light"></div>
-      <div class="light"></div>
-      <div class="dark"></div>
-      <div class="light"></div>
-      <div class="dark"></div>
-      <div class="dark"></div>
-      <div class="light"></div>
-      <div class="light"></div>
-      <div class="dark"></div>
-      <div class="light"></div>
-      <div class="dark"></div>
-      <div class="dark"></div>
-      <div class="light"></div>
-      <div class="light"></div>
-      <div class="dark"></div>
-    </div>
+    <h1>Hello, it is Fog.</h1>
+    <p style="text-align:center;">
+      <a class="button" href="https://youtube.com/@fog-?sub_confirmation=1">Subscribe to my channel</a>
+    </p>
   </body>
 </html>
