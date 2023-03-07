@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>fog.fyi</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <style>
-    body {
-      background-color: #202123;
-    }
-    h1 {
-      font-size: 80px;
-      font-weight: 800;
-      text-align: center;
-      margin-top: 10%;
-      color: white;
-      font-family: "Segoe UI", "Roboto", sans-serif;
-    }
-    button {
-      background-color: #444444;
-      color: white;
-      font-size: 24px;
-      font-weight: bold;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 20px;
-      cursor: pointer;
-      transition: all 0.3s ease-in-out;
-    }
-    button:hover {
-      background-color: #5d5f72;
-    }
-    button a {
-      text-decoration: none;
-      color: white;
-    }
-  </style>
-</head>
-<body>
-  <h1>FOG.FYI</h1>
-  <div style="display: flex; justify-content: center;">
-    <button onclick="window.location.href='https://youtube.com/@fog-'"><a href="https://youtube.com/@fog-">fog</a></button>
-    <button onclick="window.location.href='https://youtube.com/@ikr'"><a href="https://youtube.com/@ikr">ikr</a></button>
-    <button onclick="window.location.href='https://youtube.com/@yen'"><a href="https://youtube.com/@yen">yen</a></button>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>fog.fyi</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+      body {
+        background-color: #202123;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 25%;
+        font-size: 60px;
+        font-weight: bold;
+        font-family: Impact, Charcoal, sans-serif;
+      }
+      a.button {
+        display: block;
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin: 30px auto;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        background-color: #5d5f72;
+        border-radius: 5px;
+        transition: background-color 0.2s ease, transform 0.2s ease;
+      }
+      a.button:hover {
+        background-color: #3c3d45;
+        transform: scale(1.1);
+      }
+      a.button:first-of-type {
+        margin-top: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>@fog</h1>
+    <a class="button" href="https://youtube.com/fog">youtube.com/fog</a>
+    <a class="button" href="https://youtube.com/ikr">youtube.com/ikr</a>
+    <a class="button" href="https://youtube.com/yen">youtube.com/yen</a>
+  </body>
 </html>
