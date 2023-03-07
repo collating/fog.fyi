@@ -9,31 +9,43 @@
       background-color: #202123;
     }
     h1 {
-      font-size: 60px;
-      font-weight: bold;
+      font-size: 80px;
+      font-weight: 800;
       text-align: center;
       margin-top: 10%;
       color: white;
+      font-family: "Segoe UI", "Roboto", sans-serif;
     }
     button {
       background-color: #444444;
       color: white;
-      font-size: 48px;
+      font-size: 24px;
       font-weight: bold;
-      padding: 20px 40px;
+      padding: 10px 20px;
       border: none;
       border-radius: 5px;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 0 auto;
+      margin: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+    button:hover {
+      background-color: #5d5f72;
+    }
+    button a {
+      text-decoration: none;
+      color: white;
     }
   </style>
 </head>
 <body>
-  <h1>Fog#9999</h1>
-  <button><a href="https://youtube.com/@fog-" target="_blank" style="color:white;">youtube.com/@fog-</a></button>
-  <button><a href="https://youtube.com/@ikr" target="_blank" style="color:white;">youtube.com/@ikr</a></button>
-  <button><a href="https://youtube.com/@yen" target="_blank" style="color:white;">youtube.com/@yen</a></button>
+  <h1>FOG.FYI</h1>
+  <div style="display: flex; justify-content: center;">
+    <button onclick="window.location.href='https://youtube.com/@fog-'"><a href="https://youtube.com/@fog-">fog</a></button>
+    <button onclick="window.location.href='https://youtube.com/@ikr'"><a href="https://youtube.com/@ikr">ikr</a></button>
+    <button onclick="window.location.href='https://youtube.com/@yen'"><a href="https://youtube.com/@yen">yen</a></button>
+  </div>
 </body>
 </html>
