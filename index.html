@@ -1,16 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://youtube.com/@Smappy?sub_confirmation=1">
-    <title>fog ~</title>
-</head>
-<style>
-      body {
-        background-color: #202123;
-        margin: 0;
-        padding: 0;
-      }
+    <style>
+        body {
+            background-color: #333333;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        #header {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #333333;
+            color: white;
+            font-size: 36px;
+            font-weight: bold;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .button-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #555555;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+        }
+
+        #discord {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 14px;
+        }
     </style>
-  </head>
+</head>
+<body>
+    <div id="header">fog.fyi</div>
+    <div class="button-container">
+        <a class="button" href="https://youtube.com/@ikr">@ikr on YouTube</a>
+        <a class="button" href="https://kick.com/foggy">@foggy on Kick</a>
+    </div>
+    <div id="discord">@fogs. on Discord</div>
+</body>
 </html>
